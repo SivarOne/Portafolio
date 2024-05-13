@@ -1,0 +1,364 @@
+:root{
+    --color-de-fondo: #F5F5F5;
+   --color-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-de-fondo);
+    color: #464646;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+header{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.logo-img{
+    height: 22px;
+}
+
+.menu__list{
+    display: none;
+}
+
+.menu__list li a{
+    color: #464646;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px;
+    flex-direction: column-reverse;
+    align-items: left;
+    margin: 0 auto;
+}
+
+.title__div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title__container{
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    margin: auto auto;
+}
+
+.title__bio{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.83px;
+    margin: auto;
+    text-align: center;
+}
+
+.title__subsection{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.83px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.title__network{
+    display: flex;
+    gap: 5px;
+    font-size: 15px;
+}
+
+.title__network__item{
+    display: flex;
+}
+
+.img_perfil{
+    display: flex;
+    width: 98px;
+    height: 98px;
+}
+
+.about__container{
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about__title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.about__paragraph{
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    margin: 10px 20px;
+}
+
+.skills__title, .hobbies__title, .academic__title, .experience__section__title, .formcontato__title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.skills__line, .hobbies__line{
+    display: flex;
+    flex-direction: row;
+    align-items: justify;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.skills__box, .hobbies__box{
+    width: 90px;
+    height: 118px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    background-color: white;
+}
+.skills__name, .hobbies__name{
+    margin: 16px auto 0px;
+}
+
+.academic{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EAF2FD;
+    margin-bottom: 32px;
+}
+
+.academic__courses{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.academic__courses__box{
+    width: auto;
+}
+.academic__courses__item__img{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 118px;
+}
+.logo-INTI{
+    width: 78px;
+    height: 78px;
+}
+
+.academic__courses__item__title, .experience__title{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+
+.experience__img{
+    width: 100%;
+    height: 144px;
+}
+
+.experience__box{
+    display: flex;
+    flex-direction: column;
+}
+.experience__description{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin: 8px auto 32px;
+}
+
+.experiencia__botao--repo{
+    border-color: #2A7AE4;
+    color: #2A7AE4;
+    padding: 8px 8px;
+}
+
+.experience__botao--demo{
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;
+    padding: 8px 8px;
+}
+
+.formcontato{
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.formcontato__subtext{
+    width: auto;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0 8px 8px;
+    align-items: center;
+}
+
+.formcontato__form{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 20px;
+}
+
+.formcontato__input{
+    border: 1px solid #2A7AE4;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.formcontato__textarea{
+    border: 1px solid #2A7AE4;
+    border-radius: 4px;
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    resize: none;
+}
+
+.formcontato__boton{
+    display: flex;
+    align-items: flex-start;
+    width: 133px;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+@media (min-width:600px){
+    .menu__list__item_c{
+        font-weight: 700;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .title__container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 300px;
+        height: 200px;
+        gap: 2px;
+        margin: auto;
+        padding: 0%;
+    }
+
+    .title__bio{
+        text-align: start;
+        padding: 0px;
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .title__subsection{
+        text-align: start;
+        padding: 0px;
+        margin: 0px;
+        font-size: 15px;
+    }
+
+    .title__network{
+        font-size: 10px;
+    }
+
+    .img_perfil{
+  width: 146px;
+  height: 146px;
+  border-radius: 80%;
+  flex: 1 1 auto;
+  align-self: center;
+}
+}
+
+
+
+@media (min-width: 1024px) {
+    header {
+        padding: 20px 100px;
+    }
+
+    .logo{
+        font-size: 16px;
+    }
+
+    .menu__list{
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        gap: 16px;
+    }
+
+    .menu__list__item_c{
+        display: none;
+    }
+}
